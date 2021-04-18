@@ -1,0 +1,33 @@
+.a {
+    font-size: 17px;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+a:hover {
+    font-style: italic;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+.main_container1 {
+    display: flex;
+    max-width: 90%;
+    margin-left: 70px;
+    background-color: #8590B6;
+    border: 5px solid #6B87B6; 
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.heading3 {
+    order: 2;
+    font-family: 'ff-cocon-pro', 'sans-serif';
+    margin-top: 100px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="NASAs own website for Mars, weather updates, facts and more!">
+        <meta name="description" content="NASAs own microsite about Mars, we have weather updates and much more!">   
+        <title>Mars weather</title>
+        <link href="../css/weather.css" rel="stylesheet"/>
+        <link href="../css/main.css" rel="stylesheet"/>
+        <link rel="icon" href="data:;base64,="/>
+        <link rel="stylesheet" href="https://use.typekit.net/ext2lhk.css">
+        <link rel="icon" href="http://frontstudent.com/NASA/logo4.png">
+    </head>
+    <body>
+        <container class="links">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        <li class="main_li">
+            
+            <a href="http://frontstudent.com/NASA/code/html/main.html" class="main_a">Home</a>
+            <a href="http://frontstudent.com/NASA/code/html/about.html" class="main_a">About Mars</a>
+            <a href="http://frontstudent.com/NASA/code/html/weather.html" class="main_a">Weather on Mars</a>
+            <a href="http://frontstudent.com/NASA/code/html/images.html" class="main_a">Images from Mars</a>
+            <a href="http://frontstudent.com/NASA/code/html/moreinfo.html" class="main_a">More Info</a>
+            <a href="http://frontstudent.com/NASA/code/html/csignup.html" class="main_a">Sign Up</a>
+
+        </li>
+        </container>
+        <img src="http://frontstudent.com/NASA/img/LOGO5.png" alt="NASA Logo" class="logo">
+
+        <container class="main_container">
+            <div class="text_container">
+            <h1 class="heading1">Mars Weather</h1>
+
+            <container class="container_weather">
+                <main class="wrap">
+                    <container class="mars-current-weather">
+                        <h1 class="main-title">Latest weather at Elysium Plantitia</h1>   
+                        <div class="container_date_temp">
+                        <div class="date">
+                          <h2 class="section-title--date">Sol <span data-current-sol></span>
+                          </h2>
+                          <p class="date__day" data-current-date></p>
+                        </div>
+                         <div class="temp">
+                          <h2 class="section-title"></h2>
+                          <p class="reading">High: 
+                              <span data-current-temp-high> </span> °<span data-temp-unit></span></p>
+                          <p class="reading">Low: <span data-current-temp-low></span>  °<span data-temp-unit></span></p>
+                        </div></div>
+                    </container>
+                
+               
+            
+                <div class="info">
+                    <p>InSight is taking daily weather measurements (temperature, wind, pressure) on the surface of Mars at Elysium Planitia, a flat, smooth plain near Mars’ equator.</p>
+                    <p>This is only a part of InSight’s mission. <a href="https://mars.nasa.gov/insight/mission/overview/" class="element_here_link">Click here</a> to find out more.</p>
+                   </div>
+                    <div class="unit">
+                      <label for="cel">°C</label>
+                      <input type="radio" id="cel" name="unit" checked>
+            
+                      <button class="unit__toggle" data-unit-toggle></button>
+                      <label for="fah">°F</label>
+                      <input type="radio" id="fah" name="unit">
+                    </div> 
+                      
+            
+                    <h2 class="previous-weather__title">Previous days</h2> 
+
+                    <div class="previous-days" data-previous-sols> </div></div>
+
+                         <template data-previous-sol-template>
+                                <div class="template-prev">
+                                <h3 class="previous-day__sol"> Sol <span data-sol></span></h3>
+                                <p class="previous-day__date" data-date></p>
+                                <p class="previous-day__temp">High: <span data-temp-high></span> °<span data-temp-unit></span></p>
+                                <p class="previous-day__temp">Low: <span data-temp-low></span> °<span data-temp-unit></span></p>
+                                <button class="previous-day__more-info" data-select-button>more info</button>
+                                </div>
+                            </template>
+  
+                        </main>
+                      
+        </container>
+                        </div>  
+        </container>
+
+        <div class="social_media">
+            <a href="https://www.instagram.com/nasa/"><img src="http://frontstudent.com/NASA/img/instagram.png" alt="NASA Logo" class="socials"></a>
+            <a href="https://www.facebook.com/NASA"><img src="http://frontstudent.com/NASA/img/facebook.png" alt="NASA Logo" class="socials"></a>
+            <a href="https://twitter.com/nasa"><img src="http://frontstudent.com/NASA/img/twitter.png" alt="NASA Logo" class="socials"></a>
+        </div>
+        
+        <div class="©">© NASA 2021</div>
+        </div>
+        <script src="../js/weather.js"></script>
+        <script src="../js/hamburgermenu.js"></script>
+        </body>
+</html>

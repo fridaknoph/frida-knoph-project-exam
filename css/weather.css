@@ -1,0 +1,221 @@
+
+.wrap {
+    max-width: 100%;
+}
+
+
+.mars-current-weather {
+    border: 1px solid #ECEEF4;
+    border-radius: 20px;
+    padding: 25px;  
+    background-image: url("http://frontstudent.com/NASA/img/mars2.jpg");
+    max-width: 95%;  
+    display: flex;  
+}
+
+
+.main-title {
+    font-size: 25px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+    order: 1;
+}
+
+.container_date_temp {
+    order: 2;
+    display: flex;
+    letter-spacing: 2px;
+    padding-left: 0px;
+    max-width: 100%;
+    justify-content: flex-end;
+}
+
+.temp {
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+.section-title--date {
+    font-size: 18px;
+    margin-bottom: -30px;
+    font-size: 30px;
+}
+
+
+.date__day {
+    font-size: 35px;
+}
+
+.reading {
+    font-size: 25px;
+}
+
+.previous-weather__title {
+    font-family: 'ff-cocon-pro';
+    margin-bottom: 20px;
+}
+
+.previous-days {
+    display: flex;
+    font-family: 'semplicitapro', 'sans-serif';
+
+}
+
+.template-prev {
+    margin-bottom: 0px;
+    margin-right: 30px;
+    border: 1px solid #ECEEF4;
+    border-radius: 20px;
+    max-width: 230%;
+    padding: 20px;
+
+}
+
+.previous-day__date {
+    font-size: 200%;
+}
+
+
+.previous-day__more-info {
+    background-color: #8590B6;
+    border: 1px solid #8590B6;
+    border-radius: 0px;
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'semplicitapro', 'sans-serif';
+}
+
+.previous-day__more-info:hover {
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 376px) {
+
+    .mars-current-weather {
+        max-width: 60%;
+     
+    }
+    
+    .logo {
+    }
+    
+    .heading1 {
+        margin: 20px;
+        margin-top: 50px;
+    }
+    
+    .container_date_temp {
+        font-size: 10px;
+    }
+    
+    .wrap {
+        max-width: 20%;
+        margin-left: 30px;
+    }
+    
+    .info {
+        max-width: 90%;
+    }
+    
+    .previous-days {
+        flex-direction: column;
+    }
+    
+    .template-prev {
+        flex-direction: ;
+        max-width: 40%;
+        margin-bottom: 10px;
+    }
+       
+      }
+    
+      
+
+@media only screen and (max-width: 415px) {
+
+.mars-current-weather {
+    max-width: 80%;
+ 
+}
+
+.logo {
+}
+
+.heading1 {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.container_date_temp {
+    font-size: 10px;
+}
+
+.wrap {
+    max-width: 100%;
+    margin-left: 20px;
+}
+
+.info {
+    max-width: 90%;
+}
+
+.previous-days {
+    flex-direction: column;
+}
+
+.template-prev {
+    flex-direction: ;
+    max-width: 40%;
+    margin-bottom: 10px;
+}
+   
+  }
+
+  
+
+@media only screen and (max-width: 541px) {
+
+    .mars-current-weather {
+        max-width: 80%;
+     
+    }
+    
+   
+    
+    .heading1 {
+        margin: 20px;
+        margin-top: 50px;
+    }
+    
+    .container_date_temp {
+        font-size: 10px;
+    }
+    
+    .wrap {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+    
+    .info {
+        max-width: 90%;
+    }
+    
+    .previous-days {
+        flex-direction: column;
+    }
+    
+    .template-prev {
+        flex-direction: ;
+        max-width: 40%;
+        margin-bottom: 10px;
+    }
+       
+      }
+    
+    
